@@ -4,6 +4,8 @@ Because we all need a `tail -f` on elasticsearch logs.
 
 For now it only gets the `message` field from the source elasticseach message. I also plan to add some kind of configuration to save queries easier.
 
+It also sort on the field `@timestamp` only.
+
 ## Help
 
 ```
